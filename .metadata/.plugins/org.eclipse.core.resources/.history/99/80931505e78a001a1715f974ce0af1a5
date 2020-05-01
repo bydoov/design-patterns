@@ -1,0 +1,8 @@
+
+public interface Observer {
+
+	public void register(Observable o);
+	public void unregister(Observable o);
+	
+	public void notifyObserver();
+}
